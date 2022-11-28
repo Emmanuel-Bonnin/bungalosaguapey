@@ -9,7 +9,7 @@ body{margin: 0
 
 
 header,footer{
-    background-color: rgb(137, 92, 14)!important;
+    background-color: rgb(254, 208, 73)!important;
 }
 
 footer{
@@ -18,7 +18,7 @@ height: 50px ;
 }
 .container_main{
     background-color: rgb(255, 255, 255);
-    margin: 3% auto;
+    /*margin: 3% auto;*/
 }
 
 
@@ -36,14 +36,20 @@ height: 50px ;
 };
   
 
-.galeria{
-   display: grid!important;
-   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr))!important;
-   width: 95%;
-   margin: auto;
-   grid-gap:10px;
+.galeria{display: flex;
+   flex-wrap: wrap;
+   padding: 10px 20px ;
 }
 
-.galeria img{
-    width: 100%;
+.columna{/*display: flex;*/
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+}
+.columna img{
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+filter: grayscale(100%);
+transition: aa .3s ease;
 }
