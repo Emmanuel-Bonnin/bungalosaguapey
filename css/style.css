@@ -1,13 +1,51 @@
+*,*:before, *::after{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: '';
+}
+ 
+ header,footer{
+     background-color: rgb(254, 208, 73)!important;
+ }
+ 
+ footer{
+ height: 50px ;
+ 
+ }
+ .container_main{
+     background-color: rgb(255, 255, 255);
+     /*margin: 3% auto;*/
+ }
+ 
+ 
+ .quienesSomos{margin-top: 3%;
+     margin-bottom: 3%;
+ 
+ 
+ }
+ 
+ 
+ /*titulos*/
+ .title,.title_2 {
+     font-family: 'Dancing Script'!important;
+     color: rgb(137, 92, 14)!important;
+ };
 
+
+ .section_lugar{ display: flex!important;
+                align-items: center;
+ }
   
-
+/*COMIENZO DE LA GALERIA*/
 .galeria{display: flex;
    flex-wrap: wrap;
    padding: 10px 20px ;
 }
 
 .columna{
-    flex: 20%;
+    flex: 20% ;
     max-width: 100%;
     padding: 0 4px;
 }
@@ -22,7 +60,7 @@ transition: all .3s ease;
 .columna img:hover{
     cursor: pointer;
     filter: grayscale(0%);
-    box-shadow: 0 0 10px rgb(0 , 0 , 0 , 0.5);
+    box-shadow: 0 0 10px rgb(0 , 0 , 0 , .5);
     transform: scale(1.1);
  }
 
@@ -31,9 +69,9 @@ transition: all .3s ease;
 position: fixed;
 left:0;
 top:0;
-width: 100vh;
-height: 100vh;
-background-color: rgb(0 , 0 , 0 , 0.5);
+width: 100%;/*en el video usan vh*/
+height: 100%;/*en el video usan vh*/
+background-color: rgb(0 , 0 , 0 , .5);
 z-index: 10000;
 display: flex;
 justify-content: center;
@@ -47,7 +85,7 @@ opacity: 0;
  .overlay .slideshow{
 width: 90%;
 height: 90%;
-background-color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255 .9);
 color: #000;
 position: relative;
 display:flex;
@@ -113,8 +151,11 @@ cursor: pointer;
 .mdi {
     pointer-events: none;
 }
+/*FIN DE LA GALERIA*/
 
-@media screen and (max-widht:800px) {
+
+/*MEDIA QUIERIS PARA TABLET*/
+@media screen and (max-width: 800px) {
     .columna{
         flex: 50%;
         max-width: 50%;
@@ -137,7 +178,9 @@ cursor: pointer;
     }
 }
 
-@media screen and (max-widht:600px) {
+/*MEDIA QUIERIS PARA CELULAR*/
+
+@media screen and (max-width:600px) {
     .columna{
         flex: 100%;
         max-width: 100%;
@@ -154,40 +197,6 @@ cursor: pointer;
 
 
 
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
- 
- }
- body{margin: 0
-     ;}
  
  
- header,footer{
-     background-color: rgb(254, 208, 73)!important;
- }
  
- footer{
- height: 50px ;
- 
- }
- .container_main{
-     background-color: rgb(255, 255, 255);
-     /*margin: 3% auto;*/
- }
- 
- 
- .quienesSomos{margin-top: 3%;
-     margin-bottom: 3%;
- 
- 
- }
- 
- 
- /*titulos*/
- .title,.title_2 {
-     font-family: 'Dancing Script'!important;
-     color: rgb(137, 92, 14)!important;
- };
