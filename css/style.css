@@ -293,11 +293,15 @@ align-items: center;
 
   
 /*COMIENZO DE LA GALERIA*/
-.galeria{display: flex;
+.galeria {display: flex;
    flex-wrap: wrap;
    padding: 10px 20px ;
 }
 
+.galeria2{display: flex!important;
+  flex-wrap: wrap;
+  padding: 10px 20px ;
+}
 .columna{
     flex: 20% ;
     max-width: 100%;
@@ -307,7 +311,7 @@ align-items: center;
 margin-top: 8px;
 vertical-align: middle;
 width: 100%;
-filter: grayscale(100%);
+/*filter: grayscale(100%)*/;
 transition: all .3s ease;
 }
 
@@ -446,9 +450,14 @@ cursor: pointer;
         flex: 100%;
         max-width: 100%;
     }
+    
     .contenedor-contacto
     { flex-direction: column; 
       align-items: center; 
+}
+.img_prestaciones{
+  max-width: 100%!important;
+  ;
 }
 }
 
