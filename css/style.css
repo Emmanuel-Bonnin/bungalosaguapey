@@ -26,7 +26,7 @@
  flex-direction: column;
 }
 .p_contacto{
-  
+  text-decoration: none!important;
   padding: 20px ;
 }
 .contenedor-contacto {
@@ -42,7 +42,9 @@
 .img_icono{
   height: 20px;
   width: 20px;
+  
 }
+
 
 
 
@@ -234,7 +236,7 @@ background: linear-gradient(70deg, rgb(255, 167, 74), rgb(255, 210, 74));
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 25px;
+  padding: 20px;
  height: 100px ;
  
  }
@@ -464,12 +466,30 @@ cursor: pointer;
   ;
 }
 }
+footer{
+ height: 150px ;
+ 
+ }
 
 
+ .form-registro {
+  width: 300px;
+  margin: 0 0;
+   }
 
 
-
-
+   .title_form{
+    width: 300px;
+   
+  }   
+  .data {
+    width: 290px; 
+  margin: -5px 0;}
+  .data_mensaje{
+    
+    width: 290px;
+    height: 70px; ;
+  }
 
 
 
