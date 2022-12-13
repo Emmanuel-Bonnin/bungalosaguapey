@@ -39,6 +39,11 @@
     
 }
 
+.img_icono{
+  height: 20px;
+  width: 20px;
+}
+
 
 
 .form-registro {
@@ -218,31 +223,19 @@ align-items: center;
  }
  /*botones de navbar */ 
 
-.btn-2 {
  
-  margin: 0;
-  padding: 5px 5px;
-  
-  border: none;
-  
-}
-.btn-2:before {
-  height: 0%;
-  width: 2px;
-}
-.btn-2:hover {
-  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
-              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
-    inset -4px -4px 6px 0 rgba(255,255,255,.2),
-    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+
+.btn-1:hover {
+background: linear-gradient(70deg, rgb(255, 167, 74), rgb(255, 210, 74));
 }
 
  /*FOOTER*/
  footer{display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 25px;
- height: 60px ;
+ height: 100px ;
  
  }
  /*CONTAINER*/
@@ -277,28 +270,39 @@ align-items: center;
 
  /*CARRUSEL*/   
  .carrusel{
-    margin: 30px 0;
+  margin: 30px 0;
  }
  
  /*titulos*/
  .title,.title_2 {
     
-     color: rgb(249, 165, 19)!important;
+     color: rgb(203, 106, 9)!important;
  }
+
  .title{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lobster', cursive;
     font-weight: 400;
+ }
+
+ .subtitle{
+  color: rgb(140, 10, 10)!important
  }
 
 
   
 /*COMIENZO DE LA GALERIA*/
-.galeria {display: flex;
+.galeria {
+  background-color:rgb(221, 219, 219);
+  margin: 40px 0;
+  display: flex;
    flex-wrap: wrap;
    padding: 10px 20px ;
 }
 
-.galeria2{display: flex!important;
+.galeria2{
+  background-color:rgb(221, 219, 219);
+  margin: 40px 0;
+  display: flex!important;
   flex-wrap: wrap;
   padding: 10px 20px ;
 }
