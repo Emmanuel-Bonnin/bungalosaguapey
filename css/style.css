@@ -44,9 +44,19 @@
   width: 20px;
   
 }
+.hotmail:hover{
+  color: rgb(219, 8, 8);
+}
 
-
-
+.whatsapp:hover{
+  color: rgb(8, 219, 8);
+}
+.facebook:hover {
+  color: rgb(8, 22, 219);
+}
+.google:hover {
+  color: rgb(219, 8, 8);
+}
 
 .form-registro {
     width: 400px;
