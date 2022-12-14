@@ -85,6 +85,3 @@ span.onclick = function() {
     overlay.style.visibility = "hidden";
 }
 })
-
-
-
